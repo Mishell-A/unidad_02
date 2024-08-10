@@ -1,0 +1,42 @@
+.c1 {
+  padding: 10px;
+  border: 1px solid #000;
+  margin: 20px;
+}
+
+.c2 {
+  /* padding: 20px 50px 5px 30px  */
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  border: 50px solid #000;
+  margin: 100px;
+}
+
+.display div {
+  border: 1px solid blue;
+  background-color: aliceblue;
+  padding: 10px;
+  width: 200px;
+}
+
+.c-inline div {
+  display: inline;
+}
+
+.c-block div {
+  display: block;
+}
+
+.c-inline-block div {
+  display: inline-block;
+}
+
+.c-none div {
+  display: inline-block;
+}
+
+#div-none {
+  display: none;
+}

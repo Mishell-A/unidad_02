@@ -1,0 +1,51 @@
+.bio {
+  width: 70%;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.resumen {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.tabla .title {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 0.2em 0;
+}
+
+.tabla .img img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100px;
+  width: 100px;
+}
+
+.tabla .izq {
+  font-weight: bold;
+  text-align: left;
+}
+
+.tabla img {
+  vertical-align: middle;
+}
+
+.tabla {
+  font-size: 80%;
+  line-height: 1.8em;
+  height: 5em;
+  width: 20em;
+}
+img {
+  width: 1em;
+  height: 1em;
+}
