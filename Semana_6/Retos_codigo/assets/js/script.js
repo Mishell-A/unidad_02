@@ -6,7 +6,7 @@ let reverse = (Array) => {
         arrayInvertido.push(Array[i]);
     }
     return arrayInvertido;
-}
+};
 
 
 // Contar vocales
@@ -43,6 +43,24 @@ const max = (A, B, C) => {
     return Math.max(A, B, C);
 };
 
+//Numero primo
+
+const isPrime = (n) => {
+    if (n <= 1) {
+        return false;
+    } else if (n === 2) {
+        return true; // 2 es el único número par primo
+    } else if (n % 2 === 0) {
+        return false; // Todos los números pares mayores que 2 no son primos
+    } else {
+        for (let i = 3; i < n; i += 2) {
+            if (n % i === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+};
 
 // Puedes conducir y votar?
 
