@@ -16,13 +16,13 @@ const powerofTwo = (number) => {
 
 // INVERTIR UN ARRAY
 
-let reverse = (Array) => {
+let reverse = (array) => {
     let arrayInvertido = [];
-    for (let i = Array.length - 1; i >= 0; i--) {
-        arrayInvertido.push(Array[i]);
+    for (let i = array.length - 1; i >= 0; i--) {
+        arrayInvertido.push(array[i]);
     }
     return arrayInvertido;
-};
+}
 
 
 // Contar vocales
