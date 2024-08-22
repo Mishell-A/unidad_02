@@ -66,10 +66,8 @@ const isPrime = (n) => {
         return false;
     } else if (n === 2) {
         return true; // 2 es el único número par primo
-    } else if (n % 2 === 0) {
-        return false; // Todos los números pares mayores que 2 no son primos
     } else {
-        for (let i = 3; i < n; i += 2) {
+        for (let i = 2; i < Math.sqrt(n); i ++) {
             if (n % i === 0) {
                 return false;
             }
@@ -91,9 +89,10 @@ const canDriveAndVote = (edad) => {
 // Determinar si dos números son pares
 
 const areOdd = (n, m) => {
-    if  (n%2 == 0, m%2 == 0){
+    if  (n%2 == 0 && m%2 == 0){
         return true
-    } else {
-        return false
     }
+
+    return false
 }
+
